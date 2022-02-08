@@ -31,7 +31,14 @@ body {
     height: 45px;
     font-size: 20px;
     border-style: none;
-    border-bottom: red solid 3px;
+    border-bottom: black solid 4px;
+}
+
+.inputItem:focus {
+    /*o outline tira as bordas quando vc clica no item*/
+    outline:none;
+    border-style:none;
+    border-bottom: red solid 4px;
 }
 
 .addButton {
@@ -66,4 +73,8 @@ body {
 
 .mainList{
     margin-top:30px;
+}
+
+.deleteButton{
+    cursor:pointer;
 }
