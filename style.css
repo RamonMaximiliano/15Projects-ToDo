@@ -14,7 +14,6 @@ body {
     text-align: center;
     width: 500px;
     background-color: white;
-    height: 200px;
     margin: auto;
     margin-top: 200px;
     padding: 30px;
@@ -23,6 +22,7 @@ body {
 .inputDiv {
     margin-top: 35px;
     display: flex;
+    
     justify-content: space-between;
 }
 
@@ -42,4 +42,28 @@ body {
     font-size: 20px;
     border-style: none;
     background-color: red;
+}
+
+.listItem{
+    display:flex;
+    font-size: 25px;
+    justify-content: space-between;
+    padding:15px;
+    background-color: rgb(241, 172, 172);
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.listItemWhite{
+    display:flex;
+    font-size: 25px;
+    justify-content: space-between;
+    padding:15px;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.mainList{
+    margin-top:30px;
 }
