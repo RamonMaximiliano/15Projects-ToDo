@@ -22,7 +22,7 @@ body {
 .inputDiv {
     margin-top: 35px;
     display: flex;
-    
+
     justify-content: space-between;
 }
 
@@ -36,8 +36,8 @@ body {
 
 .inputItem:focus {
     /*o outline tira as bordas quando vc clica no item*/
-    outline:none;
-    border-style:none;
+    outline: none;
+    border-style: none;
     border-bottom: red solid 4px;
 }
 
@@ -51,30 +51,46 @@ body {
     background-color: red;
 }
 
-.listItem{
-    display:flex;
+.listItem {
+    display: flex;
     font-size: 25px;
     justify-content: space-between;
-    padding:15px;
     background-color: rgb(241, 172, 172);
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 
-.listItemWhite{
-    display:flex;
+
+.listItemWhite {
+    display: flex;
     font-size: 25px;
     justify-content: space-between;
-    padding:15px;
     background-color: white;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 
-.mainList{
-    margin-top:30px;
+.listItemWhite:hover, .listItem:hover {
+    background-color: rgb(236, 102, 102);
 }
 
-.deleteButton{
-    cursor:pointer;
+
+.mainList {
+    margin-top: 30px;
+}
+
+.paragraphText {
+    padding: 19px;
+}
+
+.deleteButton {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: rgb(224, 61, 61);
 }

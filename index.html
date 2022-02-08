@@ -11,18 +11,19 @@
 
 <body>
     <div class="maindiv">
-        <h1 class="title">To Do List</h1>
-        <div class="inputDiv">
-            <input type="text" class="inputItem" placeholder="Type your item">
-            <!--         change this input type from button to submit later
- -->        <input type="button" class="addButton" value="Add" onclick="addItem()">
-        </div>
+        <form>
+            <h1 class="title">To Do List</h1>
+            <div class="inputDiv">
+                <input type="text" class="inputItem" placeholder="Type your item">
+                <!--         change this input type from button to submit later
+ --> <input type="submit" class="addButton" value="Add" onclick="addItem(); return false">
+            </div>
 
-        <ul class="mainList">
-        </ul>
-
+            <ul class="mainList">
+            </ul>
+        </form>
     </div>
-<script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
